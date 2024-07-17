@@ -12,7 +12,8 @@ build/
 develop-eggs/
 dist/
 downloads/
-photos/   
+photos/
+negocio.json
 eggs/
 .eggs/
 lib/
