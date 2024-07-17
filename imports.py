@@ -25,3 +25,4 @@ from sklearn.metrics import classification_report, f1_score, accuracy_score, roc
 from sklearn.model_selection import train_test_split
 from tensorflow.keras.utils import to_categorical # Label Encoding 
 import numpy as np
+from tqdm import tqdm # barra de progreso
