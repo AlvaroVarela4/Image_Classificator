@@ -8,7 +8,7 @@ categorias = ["Drink", "Food", "Inside", "Menu", "Outside"]
 
 @st.cache_resource()
 def load_model():
-    model = tf.keras.models.load_model('Modelo_Base_entrenado.keras')
+    model = tf.keras.models.load_model('Modelo_dropout_13k_entrenado.keras')  # Introducir modelo 
     return model
 
 model = load_model()
